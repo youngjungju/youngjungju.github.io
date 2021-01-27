@@ -52,6 +52,35 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
+            <li class="nav-item" data-level="1"><a href="#git-github" class="nav-link">Git과 Github 내용 정리</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#1-git-github" class="nav-link">1. Git 과 Github 의 차이점</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2-init-add-commit-m" class="nav-link">2. init, add, commit -m</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#3-remote-clone-push-pull" class="nav-link">3. remote, clone, push, pull</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#4-git-push-pull-commands" class="nav-link">4. Git Push Pull Commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#5-branch-checkout" class="nav-link">5. branch, checkout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#6-merge-2-fast-forwardmerge-conflict" class="nav-link">6. merge 2가지 설명 (fast-forward/Merge conflict)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
             <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">잠 자고 싶다,,,,</a>
               <ul class="nav flex-column">
             <li class="nav-item" data-level="2"><a href="#7" class="nav-link">잠을 제대로 못 자면 일어나는 7가지 문제점</a>
@@ -69,6 +98,42 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
+<h1 id="git-github">Git과 Github 내용 정리</h1>
+<h2 id="1-git-github">1. Git 과 Github 의 차이점</h2>
+<pre><code>
+git = 음악편집기
+github = 자작 노래 게시판 
+
+</code></pre>
+
+<hr />
+<h2 id="2-init-add-commit-m">2. init, add, commit -m</h2>
+<p><strong>init</strong> : 디렉토리를 git 레포지토리로 만들어 디렉토리 내의 파일을 git이 추적하게 한다. 
+           untracked 상태</p>
+<p><strong>add</strong> : <FILE>을 스테이징한다
+          untracked 상태 -&gt; staged 상태</p>
+<p><strong>commit -m</strong> : 스테이징된 파일들을 커밋하여 하나의 버전으로 만들어 git 데이터베이스에 저장한다.
+                staged 상태 -&gt; committed 상태</p>
+<hr />
+<h2 id="3-remote-clone-push-pull">3. remote, clone, push, pull</h2>
+<blockquote>
+<p>remote : <NAME>이라는 별칭으로 <URL>의 원격 레포지토리를 등록한다.</p>
+<p>clone : <URL>의 원격 레포지토리를 가져와서 <NAME> 디렉토리에 복제한다. </p>
+<p>push : <NAME> 의 원격 레포지토리로 변경사항을 업데이트한다.</p>
+<p>pull : <REMOTE> <BRANCH> : <REMOTE> 의 원격 레포지토리를 가져온 후 <BRANCH> 에 병합한다.</p>
+</blockquote>
+<hr />
+<h2 id="4-git-push-pull-commands">4. Git Push Pull Commands</h2>
+<p><img alt="pushpull" src="https://i.ytimg.com/vi/0nqJKEh3YCc/maxresdefault.jpg" /></p>
+<hr />
+<h2 id="5-branch-checkout">5. branch, checkout</h2>
+<p><em>branch란 포인터다 평행세계를 만들어 원래의 세계에서 평행세계로 넘어가서 그 세계에서 마음껏 실험적인 행동을 자행하는것</em></p>
+<p><em>checkout이랑 브랜치로 이주하는 것이다</em></p>
+<hr />
+<h2 id="6-merge-2-fast-forwardmerge-conflict">6. merge 2가지 설명 (fast-forward/Merge conflict)</h2>
+<p>fast-forward : git이 단순히 master 브랜치가 testing 브랜치가 포인팅하고 있는 커밋을 포인팅하게 하는것 </p>
+<p>Merge conflict : 병합할 때 발생하는 충돌</p>
+<hr />
 <h1 id="_1">잠 자고 싶다,,,,</h1>
 <p><img alt="image" src="https://user-images.githubusercontent.com/70834005/105937801-9fab5280-6099-11eb-847a-752410eff731.png" /></p>
 <hr />
@@ -265,5 +330,5 @@
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2021-01-27 03:18:45.885779+00:00
+Build Date UTC : 2021-01-27 03:20:25.380973+00:00
 -->
