@@ -113,7 +113,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "elephantjuyoung@gmail.com"
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedIn"
+      icon: "fas fa-fw fa-linkedin"
       url: "https://your-website.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
